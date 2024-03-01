@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build",
+  "command": "D:\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/QuickFire.dir/includes_CXX.rsp -g -Wall -pedantic -Wno-unknown-pragmas -o CMakeFiles\\QuickFire.dir\\main.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\main.cpp\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/main.cpp",
+  "output": "CMakeFiles/QuickFire.dir/main.cpp.obj"
+}
+]
