@@ -1,8 +1,140 @@
 [
 {
   "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build",
-  "command": "D:\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/QuickFire.dir/includes_CXX.rsp -g -Wall -pedantic -Wno-unknown-pragmas -o CMakeFiles\\QuickFire.dir\\main.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\main.cpp\"",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/hellogl.dir/includes_CXX.rsp -g -o CMakeFiles\\hellogl.dir\\main.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\main.cpp\"",
   "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/main.cpp",
-  "output": "CMakeFiles/QuickFire.dir/main.cpp.obj"
+  "output": "CMakeFiles/hellogl.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\context.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/context.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\init.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\init.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/init.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\input.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\input.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/input.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\monitor.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/monitor.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\platform.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\platform.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/platform.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\vulkan.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/vulkan.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\window.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\window.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/window.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\egl_context.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/egl_context.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\osmesa_context.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/osmesa_context.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_init.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\null_init.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/null_init.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\null_monitor.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/null_monitor.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_window.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\null_window.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/null_window.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\null_joystick.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/null_joystick.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\win32_module.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/win32_module.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\win32_time.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/win32_time.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\win32_thread.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/win32_thread.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\win32_init.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/win32_init.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\win32_joystick.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/win32_joystick.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\win32_monitor.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/win32_monitor.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\win32_window.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/win32_window.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glfw-3.4\\src\\wgl_context.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/src/wgl_context.c",
+  "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -g -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glad\\src\\glad.c\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/src/glad.c",
+  "output": "deps/glad/CMakeFiles/glad.dir/src/glad.c.obj"
 }
 ]

@@ -1,20 +1,20 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(ExerciseCpp VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.5.0)
+project(hellogl VERSION 0.1.0 LANGUAGES C CXX)
 
-include(CTest)
-enable_testing()
+add_executable(hellogl main.cpp)
 
-set(SFML_STATIC_LIBRARIES TRUE)
-set(SFML_DIR "D:/C++ Libs/SFML-2.6.1/lib/cmake/SFML")
+set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
-find_package(SFML 2.6 COMPONENTS graphics audio REQUIRED)
-add_compile_options(-Wall -pedantic -Wno-unknown-pragmas)
+add_subdirectory("${PROJECT_SOURCE_DIR}/deps/glfw-3.4")
 
-add_executable(QuickFire main.cpp)
-target_link_libraries(QuickFire sfml-graphics sfml-window sfml-system)
+# For OpenGL 4.6
+add_subdirectory("${PROJECT_SOURCE_DIR}/deps/glad")
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+target_link_libraries(hellogl
+glad
+glfw
+)
 
 

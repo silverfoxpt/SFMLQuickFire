@@ -604,3 +604,109 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "D:/mingw64/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/mingw64/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "deps/glfw-3.4/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-e7dyms"
+      binary: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-e7dyms"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-e7dyms
+        
+        Run Build Command(s):D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_53aa3/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_53aa3.dir\\build.make CMakeFiles/cmTC_53aa3.dir/build
+        mingw32-make[1]: Entering directory 'D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-e7dyms'
+        Building C object CMakeFiles/cmTC_53aa3.dir/src.c.obj
+        D:\\mingw64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_53aa3.dir\\src.c.obj -c "D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e7dyms\\src.c"
+        Linking C executable cmTC_53aa3.exe
+        D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_53aa3.dir\\link.txt --verbose=1
+        D:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_53aa3.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_53aa3.dir/objects.a @CMakeFiles\\cmTC_53aa3.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_53aa3.dir/objects.a -Wl,--no-whole-archive -o cmTC_53aa3.exe -Wl,--out-implib,libcmTC_53aa3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_53aa3.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-e7dyms'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "deps/glfw-3.4/src/CMakeLists.txt:274 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-g4xn9k"
+      binary: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-g4xn9k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-g4xn9k
+        
+        Run Build Command(s):D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_191a2/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_191a2.dir\\build.make CMakeFiles/cmTC_191a2.dir/build
+        mingw32-make[1]: Entering directory 'D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-g4xn9k'
+        Building C object CMakeFiles/cmTC_191a2.dir/CheckIncludeFile.c.obj
+        D:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_191a2.dir\\CheckIncludeFile.c.obj -c "D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4xn9k\\CheckIncludeFile.c"
+        Linking C executable cmTC_191a2.exe
+        D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_191a2.dir\\link.txt --verbose=1
+        D:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_191a2.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_191a2.dir/objects.a @CMakeFiles\\cmTC_191a2.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_191a2.dir/objects.a -Wl,--no-whole-archive -o cmTC_191a2.exe -Wl,--out-implib,libcmTC_191a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_191a2.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-g4xn9k'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "deps/glfw-3.4/src/CMakeLists.txt:275 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-4h92mk"
+      binary: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-4h92mk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-4h92mk
+        
+        Run Build Command(s):D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_84fc6/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_84fc6.dir\\build.make CMakeFiles/cmTC_84fc6.dir/build
+        mingw32-make[1]: Entering directory 'D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-4h92mk'
+        Building C object CMakeFiles/cmTC_84fc6.dir/CheckIncludeFile.c.obj
+        D:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_84fc6.dir\\CheckIncludeFile.c.obj -c "D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4h92mk\\CheckIncludeFile.c"
+        Linking C executable cmTC_84fc6.exe
+        D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_84fc6.dir\\link.txt --verbose=1
+        D:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_84fc6.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_84fc6.dir/objects.a @CMakeFiles\\cmTC_84fc6.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_84fc6.dir/objects.a -Wl,--no-whole-archive -o cmTC_84fc6.exe -Wl,--out-implib,libcmTC_84fc6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_84fc6.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/CMakeScratch/TryCompile-4h92mk'
+        
+      exitCode: 0
+...
