@@ -92,10 +92,8 @@ QuickFire_EXTERNAL_OBJECTS =
 
 QuickFire.exe: CMakeFiles/QuickFire.dir/main.cpp.obj
 QuickFire.exe: CMakeFiles/QuickFire.dir/build.make
-QuickFire.exe: D:/C++\ Libs/SFML-2.6.1/lib/libsfml-graphics-s-d.a
-QuickFire.exe: D:/C++\ Libs/SFML-2.6.1/lib/libsfml-window-s-d.a
-QuickFire.exe: D:/C++\ Libs/SFML-2.6.1/lib/libsfml-system-s-d.a
-QuickFire.exe: D:/C++\ Libs/SFML-2.6.1/lib/libfreetype.a
+QuickFire.exe: deps/glad/libglad.a
+QuickFire.exe: deps/glfw-3.4/src/libglfw3.a
 QuickFire.exe: CMakeFiles/QuickFire.dir/linkLibs.rsp
 QuickFire.exe: CMakeFiles/QuickFire.dir/objects1.rsp
 QuickFire.exe: CMakeFiles/QuickFire.dir/link.txt

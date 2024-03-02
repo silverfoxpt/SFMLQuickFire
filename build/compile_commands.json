@@ -1,9 +1,9 @@
 [
 {
   "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/hellogl.dir/includes_CXX.rsp -g -o CMakeFiles\\hellogl.dir\\main.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\main.cpp\"",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/QuickFire.dir/includes_CXX.rsp -g -o CMakeFiles\\QuickFire.dir\\main.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\main.cpp\"",
   "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/main.cpp",
-  "output": "CMakeFiles/hellogl.dir/main.cpp.obj"
+  "output": "CMakeFiles/QuickFire.dir/main.cpp.obj"
 },
 {
   "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src",

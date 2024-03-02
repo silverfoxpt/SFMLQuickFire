@@ -73,7 +73,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hellogl.dir/DependInfo.cmake"
+  "CMakeFiles/QuickFire.dir/DependInfo.cmake"
   "deps/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "deps/glfw-3.4/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"

@@ -1,4 +1,4 @@
-D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/hellogl.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/QuickFire.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/package.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/package_source.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CMakeFiles/edit_cache.dir

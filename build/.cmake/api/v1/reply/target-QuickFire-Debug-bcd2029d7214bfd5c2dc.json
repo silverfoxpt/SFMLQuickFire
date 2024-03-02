@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "hellogl.exe"
+			"path" : "QuickFire.exe"
 		},
 		{
-			"path" : "hellogl.pdb"
+			"path" : "QuickFire.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -77,7 +77,7 @@
 			"id" : "glad::@7e30668588f873fa08f3"
 		}
 	],
-	"id" : "hellogl::@6890427a1f51a3e7e1df",
+	"id" : "QuickFire::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -107,8 +107,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hellogl",
-	"nameOnDisk" : "hellogl.exe",
+	"name" : "QuickFire",
+	"nameOnDisk" : "QuickFire.exe",
 	"paths" : 
 	{
 		"build" : ".",

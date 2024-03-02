@@ -1,1 +1,1 @@
--isystem "D:/C++ Libs/SFML-2.6.1/include"
+-I"D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include" -I"D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include"

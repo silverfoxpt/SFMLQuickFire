@@ -334,7 +334,8 @@ CMakeFiles/hellogl.dir/main.cpp.obj: D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFi
   D:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
   D:/mingw64/include/c++/13.1.0/memory_resource \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/glad/glad.h \
-  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/KHR/khrplatform.h
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/KHR/khrplatform.h \
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include/GLFW/glfw3.h
 
 
 D:/mingw64/include/c++/13.1.0/bits/fs_dir.h:
@@ -740,6 +741,8 @@ D:/mingw64/include/c++/13.1.0/debug/debug.h:
 D:/mingw64/include/c++/13.1.0/bits/stl_algobase.h:
 
 D:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include/GLFW/glfw3.h:
 
 D:/mingw64/include/c++/13.1.0/bits/vector.tcc:
 

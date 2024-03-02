@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "hellogl"
+			"value" : "QuickFire"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
