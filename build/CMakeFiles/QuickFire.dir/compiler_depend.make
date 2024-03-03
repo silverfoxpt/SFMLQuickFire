@@ -332,10 +332,7 @@ CMakeFiles/QuickFire.dir/main.cpp.obj: D:/SFML\ Projects/SFMLQuickFire/SFMLQuick
   D:/mingw64/include/c++/13.1.0/bits/fs_path.h \
   D:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
   D:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
-  D:/mingw64/include/c++/13.1.0/memory_resource \
-  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/glad/glad.h \
-  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/KHR/khrplatform.h \
-  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include/GLFW/glfw3.h
+  D:/mingw64/include/c++/13.1.0/memory_resource
 
 
 D:/mingw64/include/c++/13.1.0/bits/fs_dir.h:
@@ -742,8 +739,6 @@ D:/mingw64/include/c++/13.1.0/bits/stl_algobase.h:
 
 D:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/os_defines.h:
 
-D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include/GLFW/glfw3.h:
-
 D:/mingw64/include/c++/13.1.0/bits/vector.tcc:
 
 D:/mingw64/include/c++/13.1.0/bits/gslice_array.h:
@@ -888,8 +883,6 @@ D:/mingw64/include/c++/13.1.0/initializer_list:
 
 D:/mingw64/include/c++/13.1.0/system_error:
 
-D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/glad/glad.h:
-
 D:/mingw64/include/c++/13.1.0/stdexcept:
 
 D:/mingw64/include/c++/13.1.0/bits/fs_ops.h:
@@ -977,8 +970,6 @@ D:/mingw64/include/c++/13.1.0/istream:
 D:/mingw64/x86_64-w64-mingw32/include/string.h:
 
 D:/mingw64/include/c++/13.1.0/bits/ostream.tcc:
-
-D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/KHR/khrplatform.h:
 
 D:/mingw64/include/c++/13.1.0/ctime:
 
