@@ -132,6 +132,12 @@
   "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
 },
 {
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/ShaderTemplate.dir/includes_CXX.rsp -g -o CMakeFiles\\ShaderTemplate.dir\\shader.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\Shader_Template\\shader.cpp\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/shader.cpp",
+  "output": "Shader_Template/CMakeFiles/ShaderTemplate.dir/shader.cpp.obj"
+},
+{
   "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad",
   "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -g -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glad\\src\\glad.c\"",
   "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/src/glad.c",

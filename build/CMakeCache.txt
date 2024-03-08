@@ -435,6 +435,9 @@ SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
 //Name of the computer/site where compile is being run
 SITE:STRING=LAPTOP-42E0D7RO
 
+//Dependencies for the target
+ShaderTemplate_LIB_DEPENDS:STATIC=general;glad;general;glfw;
+
 //Path to a library.
 VorbisEnc_LIB:FILEPATH=D:/C++ Libs/SFML-2.6.1/lib/libvorbisenc.a
 
@@ -443,6 +446,12 @@ VorbisFile_LIB:FILEPATH=D:/C++ Libs/SFML-2.6.1/lib/libvorbisfile.a
 
 //Path to a library.
 Vorbis_LIB:FILEPATH=D:/C++ Libs/SFML-2.6.1/lib/libvorbis.a
+
+//The directory containing a CMake configuration file for glfw-3.4.
+glfw-3.4_DIR:PATH=glfw-3.4_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for glfw.
+glfw_DIR:PATH=glfw_DIR-NOTFOUND
 
 //Value Computed by CMake
 hellogl_BINARY_DIR:STATIC=D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build
@@ -592,7 +601,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

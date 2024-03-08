@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2250,6 +2250,18 @@
 			"value" : "LAPTOP-42E0D7RO"
 		},
 		{
+			"name" : "ShaderTemplate_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;glad;general;glfw;"
+		},
+		{
 			"name" : "VorbisEnc_LIB",
 			"properties" : 
 			[
@@ -2332,6 +2344,30 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "C:/Program Files (x86)/ExerciseCpp"
+		},
+		{
+			"name" : "glfw-3.4_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for glfw-3.4."
+				}
+			],
+			"type" : "PATH",
+			"value" : "glfw-3.4_DIR-NOTFOUND"
+		},
+		{
+			"name" : "glfw_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for glfw."
+				}
+			],
+			"type" : "PATH",
+			"value" : "glfw_DIR-NOTFOUND"
 		},
 		{
 			"name" : "hellogl_BINARY_DIR",

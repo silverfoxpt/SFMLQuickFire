@@ -64,19 +64,37 @@ CMAKE_BINARY_DIR = "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build"
 # The main recursive "all" target.
 all: CMakeFiles/QuickFire.dir/all
 all: deps/glfw-3.4/all
+all: Shader_Template/all
 all: deps/glad/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: deps/glfw-3.4/preinstall
+preinstall: Shader_Template/preinstall
 preinstall: deps/glad/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/QuickFire.dir/clean
 clean: deps/glfw-3.4/clean
+clean: Shader_Template/clean
 clean: deps/glad/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Shader_Template
+
+# Recursive "all" directory target.
+Shader_Template/all: Shader_Template/CMakeFiles/ShaderTemplate.dir/all
+.PHONY : Shader_Template/all
+
+# Recursive "preinstall" directory target.
+Shader_Template/preinstall:
+.PHONY : Shader_Template/preinstall
+
+# Recursive "clean" directory target.
+Shader_Template/clean: Shader_Template/CMakeFiles/ShaderTemplate.dir/clean
+.PHONY : Shader_Template/clean
 
 #=============================================================================
 # Directory level rules for directory deps/glad
@@ -130,6 +148,7 @@ deps/glfw-3.4/src/clean: deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 
 # All Build rule for target.
 CMakeFiles/QuickFire.dir/all: deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
+CMakeFiles/QuickFire.dir/all: Shader_Template/CMakeFiles/ShaderTemplate.dir/all
 CMakeFiles/QuickFire.dir/all: deps/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/build
@@ -138,7 +157,7 @@ CMakeFiles/QuickFire.dir/all: deps/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QuickFire.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 26
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuickFire.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 0
 .PHONY : CMakeFiles/QuickFire.dir/rule
@@ -185,7 +204,7 @@ deps/glfw-3.4/CMakeFiles/uninstall.dir/clean:
 deps/glfw-3.4/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\glfw.dir\build.make deps/glfw-3.4/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\glfw.dir\build.make deps/glfw-3.4/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target glfw"
 .PHONY : deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,7 +230,7 @@ deps/glfw-3.4/src/CMakeFiles/glfw.dir/clean:
 deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=27 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=29 "Built target update_mappings"
 .PHONY : deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,13 +250,40 @@ deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean:
 .PHONY : deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 
 #=============================================================================
+# Target rules for target Shader_Template/CMakeFiles/ShaderTemplate.dir
+
+# All Build rule for target.
+Shader_Template/CMakeFiles/ShaderTemplate.dir/all: deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
+Shader_Template/CMakeFiles/ShaderTemplate.dir/all: deps/glad/CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/depend
+	$(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=3,4 "Built target ShaderTemplate"
+.PHONY : Shader_Template/CMakeFiles/ShaderTemplate.dir/all
+
+# Build rule for subdir invocation for target.
+Shader_Template/CMakeFiles/ShaderTemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 26
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shader_Template/CMakeFiles/ShaderTemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 0
+.PHONY : Shader_Template/CMakeFiles/ShaderTemplate.dir/rule
+
+# Convenience name for target.
+ShaderTemplate: Shader_Template/CMakeFiles/ShaderTemplate.dir/rule
+.PHONY : ShaderTemplate
+
+# clean rule for target.
+Shader_Template/CMakeFiles/ShaderTemplate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/clean
+.PHONY : Shader_Template/CMakeFiles/ShaderTemplate.dir/clean
+
+#=============================================================================
 # Target rules for target deps/glad/CMakeFiles/glad.dir
 
 # All Build rule for target.
 deps/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps\glad\CMakeFiles\glad.dir\build.make deps/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps\glad\CMakeFiles\glad.dir\build.make deps/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=3,4 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=5,6 "Built target glad"
 .PHONY : deps/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.

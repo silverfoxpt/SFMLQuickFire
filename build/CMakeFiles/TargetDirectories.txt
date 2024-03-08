@@ -26,6 +26,15 @@ D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src/CMakeFiles/
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src/CMakeFiles/install.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src/CMakeFiles/install/local.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/src/CMakeFiles/install/strip.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/ShaderTemplate.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/package.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/package_source.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/edit_cache.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/rebuild_cache.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/list_install_components.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/install.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/install/local.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/CMakeFiles/install/strip.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/CMakeFiles/glad.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/CMakeFiles/package.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/CMakeFiles/package_source.dir

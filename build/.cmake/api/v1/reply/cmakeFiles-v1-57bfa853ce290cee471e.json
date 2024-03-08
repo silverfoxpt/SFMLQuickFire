@@ -226,6 +226,9 @@
 			"path" : "deps/glfw-3.4/CMake/glfw3.pc.in"
 		},
 		{
+			"path" : "Shader_Template/CMakeLists.txt"
+		},
+		{
 			"path" : "deps/glad/CMakeLists.txt"
 		}
 	],

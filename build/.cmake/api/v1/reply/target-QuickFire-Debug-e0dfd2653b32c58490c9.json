@@ -57,6 +57,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template"
 				}
 			],
 			"language" : "CXX",
@@ -71,6 +75,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "glfw::@4f992dea313a3dc97498"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ShaderTemplate::@53ce966bff955e24ce2b"
 		},
 		{
 			"backtrace" : 2,
@@ -89,6 +97,21 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "deps\\glad\\libglad.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "deps\\glfw-3.4\\src\\libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Shader_Template\\libShaderTemplate.a",
+				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,

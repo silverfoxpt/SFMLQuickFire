@@ -94,6 +94,9 @@ QuickFire.exe: CMakeFiles/QuickFire.dir/main.cpp.obj
 QuickFire.exe: CMakeFiles/QuickFire.dir/build.make
 QuickFire.exe: deps/glad/libglad.a
 QuickFire.exe: deps/glfw-3.4/src/libglfw3.a
+QuickFire.exe: Shader_Template/libShaderTemplate.a
+QuickFire.exe: deps/glad/libglad.a
+QuickFire.exe: deps/glfw-3.4/src/libglfw3.a
 QuickFire.exe: CMakeFiles/QuickFire.dir/linkLibs.rsp
 QuickFire.exe: CMakeFiles/QuickFire.dir/objects1.rsp
 QuickFire.exe: CMakeFiles/QuickFire.dir/link.txt

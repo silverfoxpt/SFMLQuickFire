@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/CMakeLists.txt"
+  "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeRCCompiler.cmake"
@@ -68,6 +69,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "deps/glfw-3.4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "deps/glfw-3.4/src/glfw3.pc"
   "deps/glfw-3.4/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Shader_Template/CMakeFiles/CMakeDirectoryInformation.cmake"
   "deps/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -77,5 +79,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "deps/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "deps/glfw-3.4/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
+  "Shader_Template/CMakeFiles/ShaderTemplate.dir/DependInfo.cmake"
   "deps/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )

@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						3
+						3,
+						4
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
@@ -31,7 +32,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-deps.glfw-3.4-Debug-cbf88a1a7b1c82dc0af3.json",
+					"jsonFile" : "directory-deps.glfw-3.4-Debug-9c3a74ae054637dcfa16.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -41,13 +42,13 @@
 					"source" : "deps/glfw-3.4",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
 					"build" : "deps/glfw-3.4/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-deps.glfw-3.4.src-Debug-c2a15a5d15391b735c5d.json",
+					"jsonFile" : "directory-deps.glfw-3.4.src-Debug-74637374c9fe6d128c50.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -57,8 +58,23 @@
 					"source" : "deps/glfw-3.4/src",
 					"targetIndexes" : 
 					[
-						2,
-						4
+						3,
+						5
+					]
+				},
+				{
+					"build" : "Shader_Template",
+					"jsonFile" : "directory-Shader_Template-Debug-d628912f5319fabbc25d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Shader_Template",
+					"targetIndexes" : 
+					[
+						1
 					]
 				},
 				{
@@ -73,7 +89,7 @@
 					"source" : "deps/glad",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
@@ -88,12 +104,14 @@
 					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						3
 					],
 					"name" : "QuickFire",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -106,21 +124,21 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2,
 						3,
-						4
+						4,
+						5
 					]
 				},
 				{
 					"directoryIndexes" : 
 					[
-						3
+						4
 					],
 					"name" : "Glad",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
@@ -129,12 +147,19 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "QuickFire::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QuickFire-Debug-bcd2029d7214bfd5c2dc.json",
+					"jsonFile" : "target-QuickFire-Debug-e0dfd2653b32c58490c9.json",
 					"name" : "QuickFire",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
+					"id" : "ShaderTemplate::@53ce966bff955e24ce2b",
+					"jsonFile" : "target-ShaderTemplate-Debug-4a19db341b4506b9b21a.json",
+					"name" : "ShaderTemplate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
 					"id" : "glad::@7e30668588f873fa08f3",
 					"jsonFile" : "target-glad-Debug-7c79ea02d83717ffc9cc.json",
 					"name" : "glad",

@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build"
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	D:\mingw64\bin\cpack.exe --config ./CPackConfig.cmake
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && D:\mingw64\bin\cpack.exe --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	D:\mingw64\bin\cpack.exe --config ./CPackSourceConfig.cmake "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CPackSourceConfig.cmake"
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && D:\mingw64\bin\cpack.exe --config ./CPackSourceConfig.cmake "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\\CMakeFiles\progress.marks"
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\Shader_Template\\CMakeFiles\progress.marks"
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shader_Template/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shader_Template/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,120 +167,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shader_Template/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shader_Template/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named QuickFire
+# Convenience name for target.
+Shader_Template/CMakeFiles/ShaderTemplate.dir/rule:
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shader_Template/CMakeFiles/ShaderTemplate.dir/rule
+.PHONY : Shader_Template/CMakeFiles/ShaderTemplate.dir/rule
 
-# Build rule for target.
-QuickFire: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuickFire
-.PHONY : QuickFire
-
-# fast build rule for target.
-QuickFire/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/build
-.PHONY : QuickFire/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\CMakeFiles\uninstall.dir\build.make deps/glfw-3.4/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named glfw
-
-# Build rule for target.
-glfw: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw
-.PHONY : glfw
-
-# fast build rule for target.
-glfw/fast:
-	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\glfw.dir\build.make deps/glfw-3.4/src/CMakeFiles/glfw.dir/build
-.PHONY : glfw/fast
-
-#=============================================================================
-# Target rules for targets named update_mappings
-
-# Build rule for target.
-update_mappings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 update_mappings
-.PHONY : update_mappings
-
-# fast build rule for target.
-update_mappings/fast:
-	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
-.PHONY : update_mappings/fast
-
-#=============================================================================
-# Target rules for targets named ShaderTemplate
-
-# Build rule for target.
-ShaderTemplate: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ShaderTemplate
+# Convenience name for target.
+ShaderTemplate: Shader_Template/CMakeFiles/ShaderTemplate.dir/rule
 .PHONY : ShaderTemplate
 
 # fast build rule for target.
 ShaderTemplate/fast:
-	$(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/build
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/build
 .PHONY : ShaderTemplate/fast
 
-#=============================================================================
-# Target rules for targets named glad
-
-# Build rule for target.
-glad: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glad
-.PHONY : glad
-
-# fast build rule for target.
-glad/fast:
-	$(MAKE) $(MAKESILENT) -f deps\glad\CMakeFiles\glad.dir\build.make deps/glad/CMakeFiles/glad.dir/build
-.PHONY : glad/fast
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
+shader.obj: shader.cpp.obj
+.PHONY : shader.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+shader.cpp.obj:
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/shader.cpp.obj
+.PHONY : shader.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+shader.i: shader.cpp.i
+.PHONY : shader.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/main.cpp.i
-.PHONY : main.cpp.i
+shader.cpp.i:
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/shader.cpp.i
+.PHONY : shader.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+shader.s: shader.cpp.s
+.PHONY : shader.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/main.cpp.s
-.PHONY : main.cpp.s
+shader.cpp.s:
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/shader.cpp.s
+.PHONY : shader.cpp.s
 
 # Help Target
 help:
@@ -296,15 +232,10 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... uninstall
-	@echo ... update_mappings
-	@echo ... QuickFire
 	@echo ... ShaderTemplate
-	@echo ... glad
-	@echo ... glfw
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... shader.obj
+	@echo ... shader.i
+	@echo ... shader.s
 .PHONY : help
 
 
@@ -316,6 +247,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
