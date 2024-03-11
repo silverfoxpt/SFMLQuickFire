@@ -336,8 +336,17 @@ CMakeFiles/QuickFire.dir/main.cpp.obj: D:/SFML\ Projects/SFMLQuickFire/SFMLQuick
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/glad/glad.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/KHR/khrplatform.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include/GLFW/glfw3.h \
-  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/shader.h
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/shader.h \
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Image_Load/stb_image.h \
+  D:/mingw64/include/c++/13.1.0/math.h \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h
 
+
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h:
+
+D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Image_Load/stb_image.h:
 
 D:/mingw64/include/c++/13.1.0/bits/fs_dir.h:
 
@@ -388,6 +397,8 @@ D:/mingw64/include/c++/13.1.0/bits/valarray_after.h:
 D:/mingw64/include/c++/13.1.0/bits/slice_array.h:
 
 D:/mingw64/include/c++/13.1.0/valarray:
+
+D:/mingw64/include/c++/13.1.0/math.h:
 
 D:/mingw64/include/c++/13.1.0/bits/stl_set.h:
 
@@ -456,6 +467,8 @@ D:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/ctype_base.h:
 D:/mingw64/include/c++/13.1.0/complex:
 
 D:/mingw64/x86_64-w64-mingw32/include/stdio.h:
+
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h:
 
 D:/mingw64/include/c++/13.1.0/clocale:
 
@@ -698,6 +711,8 @@ D:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 D:/mingw64/include/c++/13.1.0/string:
 
 D:/mingw64/include/c++/13.1.0/pstl/glue_numeric_defs.h:
+
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/ctype.h:
 

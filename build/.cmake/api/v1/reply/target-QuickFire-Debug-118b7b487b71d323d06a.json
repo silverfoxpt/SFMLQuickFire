@@ -14,7 +14,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -34,6 +35,12 @@
 			{
 				"command" : 1,
 				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
 				"line" : 15,
 				"parent" : 0
 			}
@@ -50,6 +57,10 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Image_Load"
+				},
 				{
 					"backtrace" : 2,
 					"path" : "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include"
@@ -78,11 +89,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "ShaderTemplate::@53ce966bff955e24ce2b"
+			"id" : "glad::@7e30668588f873fa08f3"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "glad::@7e30668588f873fa08f3"
+			"id" : "ShaderTemplate::@53ce966bff955e24ce2b"
 		}
 	],
 	"id" : "QuickFire::@6890427a1f51a3e7e1df",

@@ -12,6 +12,8 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Shader_Template")
 # For OpenGL 4.6
 add_subdirectory("${PROJECT_SOURCE_DIR}/deps/glad")
 
+include_directories("${PROJECT_SOURCE_DIR}/Image_Load")
+
 target_link_libraries(QuickFire
 glad
 glfw
