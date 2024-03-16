@@ -233,6 +233,19 @@ update_mappings/fast:
 .PHONY : update_mappings/fast
 
 #=============================================================================
+# Target rules for targets named glm_dummy
+
+# Build rule for target.
+glm_dummy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glm_dummy
+.PHONY : glm_dummy
+
+# fast build rule for target.
+glm_dummy/fast:
+	$(MAKE) $(MAKESILENT) -f deps\glm\glm\CMakeFiles\glm_dummy.dir\build.make deps/glm/glm/CMakeFiles/glm_dummy.dir/build
+.PHONY : glm_dummy/fast
+
+#=============================================================================
 # Target rules for targets named ShaderTemplate
 
 # Build rule for target.
@@ -244,6 +257,19 @@ ShaderTemplate: cmake_check_build_system
 ShaderTemplate/fast:
 	$(MAKE) $(MAKESILENT) -f Shader_Template\CMakeFiles\ShaderTemplate.dir\build.make Shader_Template/CMakeFiles/ShaderTemplate.dir/build
 .PHONY : ShaderTemplate/fast
+
+#=============================================================================
+# Target rules for targets named ShapeTemplate
+
+# Build rule for target.
+ShapeTemplate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ShapeTemplate
+.PHONY : ShapeTemplate
+
+# fast build rule for target.
+ShapeTemplate/fast:
+	$(MAKE) $(MAKESILENT) -f Shape_Template\CMakeFiles\ShapeTemplate.dir\build.make Shape_Template/CMakeFiles/ShapeTemplate.dir/build
+.PHONY : ShapeTemplate/fast
 
 #=============================================================================
 # Target rules for targets named glad
@@ -300,8 +326,10 @@ help:
 	@echo ... update_mappings
 	@echo ... QuickFire
 	@echo ... ShaderTemplate
+	@echo ... ShapeTemplate
 	@echo ... glad
 	@echo ... glfw
+	@echo ... glm_dummy
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

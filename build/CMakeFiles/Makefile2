@@ -64,20 +64,26 @@ CMAKE_BINARY_DIR = "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build"
 # The main recursive "all" target.
 all: CMakeFiles/QuickFire.dir/all
 all: deps/glfw-3.4/all
+all: deps/glm/all
 all: Shader_Template/all
+all: Shape_Template/all
 all: deps/glad/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: deps/glfw-3.4/preinstall
+preinstall: deps/glm/preinstall
 preinstall: Shader_Template/preinstall
+preinstall: Shape_Template/preinstall
 preinstall: deps/glad/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/QuickFire.dir/clean
 clean: deps/glfw-3.4/clean
+clean: deps/glm/clean
 clean: Shader_Template/clean
+clean: Shape_Template/clean
 clean: deps/glad/clean
 .PHONY : clean
 
@@ -95,6 +101,21 @@ Shader_Template/preinstall:
 # Recursive "clean" directory target.
 Shader_Template/clean: Shader_Template/CMakeFiles/ShaderTemplate.dir/clean
 .PHONY : Shader_Template/clean
+
+#=============================================================================
+# Directory level rules for directory Shape_Template
+
+# Recursive "all" directory target.
+Shape_Template/all: Shape_Template/CMakeFiles/ShapeTemplate.dir/all
+.PHONY : Shape_Template/all
+
+# Recursive "preinstall" directory target.
+Shape_Template/preinstall:
+.PHONY : Shape_Template/preinstall
+
+# Recursive "clean" directory target.
+Shape_Template/clean: Shape_Template/CMakeFiles/ShapeTemplate.dir/clean
+.PHONY : Shape_Template/clean
 
 #=============================================================================
 # Directory level rules for directory deps/glad
@@ -144,11 +165,129 @@ deps/glfw-3.4/src/clean: deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : deps/glfw-3.4/src/clean
 
 #=============================================================================
+# Directory level rules for directory deps/glm
+
+# Recursive "all" directory target.
+deps/glm/all: deps/glm/glm/all
+deps/glm/all: deps/glm/test/all
+.PHONY : deps/glm/all
+
+# Recursive "preinstall" directory target.
+deps/glm/preinstall: deps/glm/glm/preinstall
+deps/glm/preinstall: deps/glm/test/preinstall
+.PHONY : deps/glm/preinstall
+
+# Recursive "clean" directory target.
+deps/glm/clean: deps/glm/glm/clean
+deps/glm/clean: deps/glm/test/clean
+.PHONY : deps/glm/clean
+
+#=============================================================================
+# Directory level rules for directory deps/glm/glm
+
+# Recursive "all" directory target.
+deps/glm/glm/all: deps/glm/glm/CMakeFiles/glm_dummy.dir/all
+.PHONY : deps/glm/glm/all
+
+# Recursive "preinstall" directory target.
+deps/glm/glm/preinstall:
+.PHONY : deps/glm/glm/preinstall
+
+# Recursive "clean" directory target.
+deps/glm/glm/clean: deps/glm/glm/CMakeFiles/glm_dummy.dir/clean
+.PHONY : deps/glm/glm/clean
+
+#=============================================================================
+# Directory level rules for directory deps/glm/test
+
+# Recursive "all" directory target.
+deps/glm/test/all: deps/glm/test/bug/all
+deps/glm/test/all: deps/glm/test/core/all
+deps/glm/test/all: deps/glm/test/gtc/all
+deps/glm/test/all: deps/glm/test/gtx/all
+.PHONY : deps/glm/test/all
+
+# Recursive "preinstall" directory target.
+deps/glm/test/preinstall: deps/glm/test/bug/preinstall
+deps/glm/test/preinstall: deps/glm/test/core/preinstall
+deps/glm/test/preinstall: deps/glm/test/gtc/preinstall
+deps/glm/test/preinstall: deps/glm/test/gtx/preinstall
+.PHONY : deps/glm/test/preinstall
+
+# Recursive "clean" directory target.
+deps/glm/test/clean: deps/glm/test/bug/clean
+deps/glm/test/clean: deps/glm/test/core/clean
+deps/glm/test/clean: deps/glm/test/gtc/clean
+deps/glm/test/clean: deps/glm/test/gtx/clean
+.PHONY : deps/glm/test/clean
+
+#=============================================================================
+# Directory level rules for directory deps/glm/test/bug
+
+# Recursive "all" directory target.
+deps/glm/test/bug/all:
+.PHONY : deps/glm/test/bug/all
+
+# Recursive "preinstall" directory target.
+deps/glm/test/bug/preinstall:
+.PHONY : deps/glm/test/bug/preinstall
+
+# Recursive "clean" directory target.
+deps/glm/test/bug/clean:
+.PHONY : deps/glm/test/bug/clean
+
+#=============================================================================
+# Directory level rules for directory deps/glm/test/core
+
+# Recursive "all" directory target.
+deps/glm/test/core/all:
+.PHONY : deps/glm/test/core/all
+
+# Recursive "preinstall" directory target.
+deps/glm/test/core/preinstall:
+.PHONY : deps/glm/test/core/preinstall
+
+# Recursive "clean" directory target.
+deps/glm/test/core/clean:
+.PHONY : deps/glm/test/core/clean
+
+#=============================================================================
+# Directory level rules for directory deps/glm/test/gtc
+
+# Recursive "all" directory target.
+deps/glm/test/gtc/all:
+.PHONY : deps/glm/test/gtc/all
+
+# Recursive "preinstall" directory target.
+deps/glm/test/gtc/preinstall:
+.PHONY : deps/glm/test/gtc/preinstall
+
+# Recursive "clean" directory target.
+deps/glm/test/gtc/clean:
+.PHONY : deps/glm/test/gtc/clean
+
+#=============================================================================
+# Directory level rules for directory deps/glm/test/gtx
+
+# Recursive "all" directory target.
+deps/glm/test/gtx/all:
+.PHONY : deps/glm/test/gtx/all
+
+# Recursive "preinstall" directory target.
+deps/glm/test/gtx/preinstall:
+.PHONY : deps/glm/test/gtx/preinstall
+
+# Recursive "clean" directory target.
+deps/glm/test/gtx/clean:
+.PHONY : deps/glm/test/gtx/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/QuickFire.dir
 
 # All Build rule for target.
 CMakeFiles/QuickFire.dir/all: deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
 CMakeFiles/QuickFire.dir/all: Shader_Template/CMakeFiles/ShaderTemplate.dir/all
+CMakeFiles/QuickFire.dir/all: Shape_Template/CMakeFiles/ShapeTemplate.dir/all
 CMakeFiles/QuickFire.dir/all: deps/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/build
@@ -157,7 +296,7 @@ CMakeFiles/QuickFire.dir/all: deps/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QuickFire.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 28
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuickFire.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 0
 .PHONY : CMakeFiles/QuickFire.dir/rule
@@ -204,7 +343,7 @@ deps/glfw-3.4/CMakeFiles/uninstall.dir/clean:
 deps/glfw-3.4/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\glfw.dir\build.make deps/glfw-3.4/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\glfw.dir\build.make deps/glfw-3.4/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target glfw"
 .PHONY : deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -230,7 +369,7 @@ deps/glfw-3.4/src/CMakeFiles/glfw.dir/clean:
 deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=29 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=34 "Built target update_mappings"
 .PHONY : deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -248,6 +387,32 @@ update_mappings: deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/rule
 deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean:
 	$(MAKE) $(MAKESILENT) -f deps\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : deps/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
+
+#=============================================================================
+# Target rules for target deps/glm/glm/CMakeFiles/glm_dummy.dir
+
+# All Build rule for target.
+deps/glm/glm/CMakeFiles/glm_dummy.dir/all:
+	$(MAKE) $(MAKESILENT) -f deps\glm\glm\CMakeFiles\glm_dummy.dir\build.make deps/glm/glm/CMakeFiles/glm_dummy.dir/depend
+	$(MAKE) $(MAKESILENT) -f deps\glm\glm\CMakeFiles\glm_dummy.dir\build.make deps/glm/glm/CMakeFiles/glm_dummy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=31,32,33 "Built target glm_dummy"
+.PHONY : deps/glm/glm/CMakeFiles/glm_dummy.dir/all
+
+# Build rule for subdir invocation for target.
+deps/glm/glm/CMakeFiles/glm_dummy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deps/glm/glm/CMakeFiles/glm_dummy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 0
+.PHONY : deps/glm/glm/CMakeFiles/glm_dummy.dir/rule
+
+# Convenience name for target.
+glm_dummy: deps/glm/glm/CMakeFiles/glm_dummy.dir/rule
+.PHONY : glm_dummy
+
+# clean rule for target.
+deps/glm/glm/CMakeFiles/glm_dummy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f deps\glm\glm\CMakeFiles\glm_dummy.dir\build.make deps/glm/glm/CMakeFiles/glm_dummy.dir/clean
+.PHONY : deps/glm/glm/CMakeFiles/glm_dummy.dir/clean
 
 #=============================================================================
 # Target rules for target Shader_Template/CMakeFiles/ShaderTemplate.dir
@@ -277,13 +442,41 @@ Shader_Template/CMakeFiles/ShaderTemplate.dir/clean:
 .PHONY : Shader_Template/CMakeFiles/ShaderTemplate.dir/clean
 
 #=============================================================================
+# Target rules for target Shape_Template/CMakeFiles/ShapeTemplate.dir
+
+# All Build rule for target.
+Shape_Template/CMakeFiles/ShapeTemplate.dir/all: deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
+Shape_Template/CMakeFiles/ShapeTemplate.dir/all: Shader_Template/CMakeFiles/ShaderTemplate.dir/all
+Shape_Template/CMakeFiles/ShapeTemplate.dir/all: deps/glad/CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f Shape_Template\CMakeFiles\ShapeTemplate.dir\build.make Shape_Template/CMakeFiles/ShapeTemplate.dir/depend
+	$(MAKE) $(MAKESILENT) -f Shape_Template\CMakeFiles\ShapeTemplate.dir\build.make Shape_Template/CMakeFiles/ShapeTemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=5,6 "Built target ShapeTemplate"
+.PHONY : Shape_Template/CMakeFiles/ShapeTemplate.dir/all
+
+# Build rule for subdir invocation for target.
+Shape_Template/CMakeFiles/ShapeTemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 28
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shape_Template/CMakeFiles/ShapeTemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" 0
+.PHONY : Shape_Template/CMakeFiles/ShapeTemplate.dir/rule
+
+# Convenience name for target.
+ShapeTemplate: Shape_Template/CMakeFiles/ShapeTemplate.dir/rule
+.PHONY : ShapeTemplate
+
+# clean rule for target.
+Shape_Template/CMakeFiles/ShapeTemplate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Shape_Template\CMakeFiles\ShapeTemplate.dir\build.make Shape_Template/CMakeFiles/ShapeTemplate.dir/clean
+.PHONY : Shape_Template/CMakeFiles/ShapeTemplate.dir/clean
+
+#=============================================================================
 # Target rules for target deps/glad/CMakeFiles/glad.dir
 
 # All Build rule for target.
 deps/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps\glad\CMakeFiles\glad.dir\build.make deps/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps\glad\CMakeFiles\glad.dir\build.make deps/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=5,6 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=7,8 "Built target glad"
 .PHONY : deps/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.

@@ -132,10 +132,28 @@
   "output": "deps/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
 },
 {
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glm/glm",
+  "command": "D:\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/glm_dummy.dir/includes_CXX.rsp -g   -pedantic -O2 -o CMakeFiles\\glm_dummy.dir\\detail\\dummy.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glm\\glm\\detail\\dummy.cpp\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/detail/dummy.cpp",
+  "output": "deps/glm/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glm/glm",
+  "command": "D:\\mingw64\\bin\\g++.exe -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/glm_dummy.dir/includes_CXX.rsp -g   -pedantic -O2 -o CMakeFiles\\glm_dummy.dir\\detail\\glm.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glm\\glm\\detail\\glm.cpp\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/detail/glm.cpp",
+  "output": "deps/glm/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj"
+},
+{
   "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template",
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/ShaderTemplate.dir/includes_CXX.rsp -g -o CMakeFiles\\ShaderTemplate.dir\\shader.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\Shader_Template\\shader.cpp\"",
   "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/shader.cpp",
   "output": "Shader_Template/CMakeFiles/ShaderTemplate.dir/shader.cpp.obj"
+},
+{
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shape_Template",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/ShapeTemplate.dir/includes_CXX.rsp -g -o CMakeFiles\\ShapeTemplate.dir\\rectangle.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\Shape_Template\\rectangle.cpp\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Shape_Template/rectangle.cpp",
+  "output": "Shape_Template/CMakeFiles/ShapeTemplate.dir/rectangle.cpp.obj"
 },
 {
   "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad",

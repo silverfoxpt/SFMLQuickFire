@@ -40,7 +40,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glfw-3.4/cmake_install.cmake")
+  include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glm/cmake_install.cmake")
   include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/cmake_install.cmake")
+  include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shape_Template/cmake_install.cmake")
   include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/cmake_install.cmake")
 
 endif()
