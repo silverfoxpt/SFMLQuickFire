@@ -19,7 +19,6 @@ Texture::Texture(const char* pathToTex, bool includeAlpha) {
     unsigned char *data = stbi_load(pathToTex, &width, &height, &nrChannels, 0);
     if (data)
     {
-
         glTexImage2D(GL_TEXTURE_2D, 0, (includeAlpha) ? GL_RGBA : GL_RGB, 
             width, height, 0, (includeAlpha) ? GL_RGBA : GL_RGB, GL_UNSIGNED_BYTE, data);
         glGenerateMipmap(GL_TEXTURE_2D);
@@ -30,8 +29,6 @@ Texture::Texture(const char* pathToTex, bool includeAlpha) {
         std::cout << "Failed to load texture: " + pat << std::endl;
     }
     stbi_image_free(data);
-
-    
 }
 
 void Texture::Use(GLenum textureIndex, 

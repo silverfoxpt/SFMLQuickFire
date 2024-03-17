@@ -106,20 +106,6 @@ glm::vec3 cubePositions[] = {
     glm::vec3(-1.3f,  1.0f, -1.5f)  
 };
 
-void test() {
-    glm::vec4 vec(1.0f, 0.0f, 0.0f, 1.0f);
-    glm::mat4 trans = glm::mat4(1.0f);
-    trans = glm::translate(trans, glm::vec3(1.0f, 1.0f, 0.0f));
-    vec = trans * vec;
-    std::cout << vec.x << vec.y << vec.z << std::endl;
-}
-
-float texCoords[] = {
-    0.0f, 0.0f,  // lower-left corner  
-    1.0f, 0.0f,  // lower-right corner
-    0.5f, 1.0f   // top-center corner
-};
-
 void PrepareForRendering() {
     //Configure Vertex Buffer Object (VBO)
     glGenBuffers(1, &VBO);  
@@ -203,6 +189,7 @@ void Rendering() {
     brickTexture.Use(GL_TEXTURE0, &rectShader, "ourTexture", 0);
     smileTexture.Use(GL_TEXTURE1, &rectShader, "newTexture", 1);
     rectShader.use();
+
     rect.Use(glm::mat4(1.0f), &rectShader, "transform");
 }
 
@@ -226,6 +213,5 @@ int InitializeOpenGL() {
 
 int main()
 {
-    //test();
     return InitializeOpenGL();
 }
