@@ -306,8 +306,8 @@ deps/glm/test/gtx/clean:
 CMakeFiles/QuickFire.dir/all: deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
 CMakeFiles/QuickFire.dir/all: Shader_Template/CMakeFiles/ShaderTemplate.dir/all
 CMakeFiles/QuickFire.dir/all: Shape_Template/CMakeFiles/ShapeTemplate.dir/all
-CMakeFiles/QuickFire.dir/all: deps/glad/CMakeFiles/glad.dir/all
 CMakeFiles/QuickFire.dir/all: Texture_Template/CMakeFiles/TextureTemplate.dir/all
+CMakeFiles/QuickFire.dir/all: deps/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\SFML Projects\SFMLQuickFire\SFMLQuickFire\build\CMakeFiles" --progress-num=1,2 "Built target QuickFire"

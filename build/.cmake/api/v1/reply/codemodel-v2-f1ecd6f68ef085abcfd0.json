@@ -73,10 +73,10 @@
 						5
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-deps.glm-Debug-2b0151bbe559b822ac2a.json",
+					"jsonFile" : "directory-deps.glm-Debug-227a0bf543ff08d9330b.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.1"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 2,
@@ -87,7 +87,7 @@
 					"jsonFile" : "directory-deps.glm.glm-Debug-c7a4f9d444c41aa3dc7a.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.1"
 					},
 					"parentIndex" : 3,
 					"projectIndex" : 2,
@@ -109,7 +109,7 @@
 					"jsonFile" : "directory-deps.glm.test-Debug-b88944ed084332f3b59c.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.1"
 					},
 					"parentIndex" : 3,
 					"projectIndex" : 2,
@@ -120,7 +120,7 @@
 					"jsonFile" : "directory-deps.glm.test.bug-Debug-555e81a9b92e382b3bcb.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.1"
 					},
 					"parentIndex" : 5,
 					"projectIndex" : 2,
@@ -131,7 +131,7 @@
 					"jsonFile" : "directory-deps.glm.test.core-Debug-af5d8a6a922cb3dd646e.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.1"
 					},
 					"parentIndex" : 5,
 					"projectIndex" : 2,
@@ -142,7 +142,7 @@
 					"jsonFile" : "directory-deps.glm.test.gtc-Debug-b567a5cbcba53eba4675.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.1"
 					},
 					"parentIndex" : 5,
 					"projectIndex" : 2,
@@ -153,7 +153,7 @@
 					"jsonFile" : "directory-deps.glm.test.gtx-Debug-45d04f138a81b4a5f9ef.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.1"
 					},
 					"parentIndex" : 5,
 					"projectIndex" : 2,
@@ -297,7 +297,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "QuickFire::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QuickFire-Debug-ae947af98b8e09d88616.json",
+					"jsonFile" : "target-QuickFire-Debug-7de95fc77c1b76d9479c.json",
 					"name" : "QuickFire",
 					"projectIndex" : 0
 				},
@@ -339,7 +339,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "glm_dummy::@caa56fa18eadda473560",
-					"jsonFile" : "target-glm_dummy-Debug-89a13387122b3e695f78.json",
+					"jsonFile" : "target-glm_dummy-Debug-a76f0c72877200b108d2.json",
 					"name" : "glm_dummy",
 					"projectIndex" : 2
 				},
