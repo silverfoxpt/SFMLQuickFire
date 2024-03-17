@@ -12,7 +12,8 @@
 						3,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
@@ -34,7 +35,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-deps.glfw-3.4-Debug-7012638df95680c93192.json",
+					"jsonFile" : "directory-deps.glfw-3.4-Debug-91b3c86a679ec1cb0ca2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -44,13 +45,13 @@
 					"source" : "deps/glfw-3.4",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
 					"build" : "deps/glfw-3.4/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-deps.glfw-3.4.src-Debug-d3b6747127e58bf66823.json",
+					"jsonFile" : "directory-deps.glfw-3.4.src-Debug-1e54c4e34e24e636d346.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -60,8 +61,8 @@
 					"source" : "deps/glfw-3.4/src",
 					"targetIndexes" : 
 					[
-						4,
-						7
+						5,
+						8
 					]
 				},
 				{
@@ -93,7 +94,7 @@
 					"source" : "deps/glm/glm",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -189,6 +190,21 @@
 					]
 				},
 				{
+					"build" : "Texture_Template",
+					"jsonFile" : "directory-Texture_Template-Debug-c3ba72eb0357227970ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Texture_Template",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
 					"build" : "deps/glad",
 					"jsonFile" : "directory-deps.glad-Debug-4df9b6ff1fb9715a219e.json",
 					"minimumCMakeVersion" : 
@@ -200,7 +216,7 @@
 					"source" : "deps/glad",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				}
 			],
@@ -218,14 +234,16 @@
 					[
 						0,
 						10,
-						11
+						11,
+						12
 					],
 					"name" : "QuickFire",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				},
 				{
@@ -238,9 +256,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4,
-						6,
-						7
+						5,
+						7,
+						8
 					]
 				},
 				{
@@ -258,19 +276,19 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
 					"directoryIndexes" : 
 					[
-						12
+						13
 					],
 					"name" : "Glad",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				}
 			],
@@ -279,7 +297,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "QuickFire::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QuickFire-Debug-c0595c744b31ad7a97cb.json",
+					"jsonFile" : "target-QuickFire-Debug-ae947af98b8e09d88616.json",
 					"name" : "QuickFire",
 					"projectIndex" : 0
 				},
@@ -299,6 +317,13 @@
 				},
 				{
 					"directoryIndex" : 12,
+					"id" : "TextureTemplate::@1365c4de68acd8477dd1",
+					"jsonFile" : "target-TextureTemplate-Debug-da19c49a184c0e9f0dce.json",
+					"name" : "TextureTemplate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
 					"id" : "glad::@7e30668588f873fa08f3",
 					"jsonFile" : "target-glad-Debug-7c79ea02d83717ffc9cc.json",
 					"name" : "glad",

@@ -43,6 +43,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glm/cmake_install.cmake")
   include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shader_Template/cmake_install.cmake")
   include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shape_Template/cmake_install.cmake")
+  include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/cmake_install.cmake")
   include("D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/cmake_install.cmake")
 
 endif()

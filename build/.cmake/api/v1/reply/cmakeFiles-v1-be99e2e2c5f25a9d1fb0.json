@@ -283,6 +283,9 @@
 			"path" : "Shape_Template/CMakeLists.txt"
 		},
 		{
+			"path" : "Texture_Template/CMakeLists.txt"
+		},
+		{
 			"path" : "deps/glad/CMakeLists.txt"
 		}
 	],

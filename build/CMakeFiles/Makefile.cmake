@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/CMakeLists.txt"
   "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/CMakeLists.txt"
   "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Shape_Template/CMakeLists.txt"
+  "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Texture_Template/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeRCCompiler.cmake"
@@ -97,6 +98,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "deps/glm/test/gtx/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Shader_Template/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Shape_Template/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Texture_Template/CMakeFiles/CMakeDirectoryInformation.cmake"
   "deps/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -109,5 +111,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "deps/glm/glm/CMakeFiles/glm_dummy.dir/DependInfo.cmake"
   "Shader_Template/CMakeFiles/ShaderTemplate.dir/DependInfo.cmake"
   "Shape_Template/CMakeFiles/ShapeTemplate.dir/DependInfo.cmake"
+  "Texture_Template/CMakeFiles/TextureTemplate.dir/DependInfo.cmake"
   "deps/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )

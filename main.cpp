@@ -1,11 +1,8 @@
-#define STB_IMAGE_IMPLEMENTATION
-
 #include <bits/stdc++.h>
 #include <glad/glad.h> 
 #include <GLFW/glfw3.h>
 
 #include <shader.h>
-#include <stb_image.h>
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -13,6 +10,10 @@
 
 #include "setupManager.h"
 #include "rectangle.h"
+#include "texture.h"
+
+//#define STB_IMAGE_IMPLEMENTATION
+//#include <stb_image.h>
 
 void processInput(GLFWwindow *window)
 {
@@ -29,6 +30,12 @@ unsigned int texture2;
 
 MainManager mainManager(800, 600);
 Rectangle rect(&mainManager, 600, 600, glm::vec3(1.0, 0.5, 0.5));
+
+Shader myShader("../Shaders/examplevert.vert", "../Shaders/examplefrag.frag");
+Shader rectShader("../Shaders/rect.vert", "../Shaders/rect.frag");
+
+Texture brickTexture("../res/wall.jpg", false);
+Texture smileTexture("../res/awesomeface.png", true);
 
 /*float vertices[] = {
     // first triangle
@@ -113,13 +120,6 @@ float texCoords[] = {
     0.5f, 1.0f   // top-center corner
 };
 
-Shader myShader;
-Shader rectShader;
-void SetUpShaders() {
-    myShader = Shader("../Shaders/examplevert.vert", "../Shaders/examplefrag.frag");
-    rectShader = Shader("../Shaders/rect.vert", "../Shaders/rect.frag");
-}
-
 void PrepareForRendering() {
     //Configure Vertex Buffer Object (VBO)
     glGenBuffers(1, &VBO);  
@@ -147,77 +147,12 @@ void PrepareForRendering() {
     //Unbind VAO and VBO
     glBindBuffer(GL_ARRAY_BUFFER, 0); 
     glBindVertexArray(0); 
-
-    //Handle Textures
-    glGenTextures(1, &texture);
-    glBindTexture(GL_TEXTURE_2D, texture);  
-
-    // set the texture wrapping/filtering options (on the currently bound texture object)
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);	
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-    // load and generate the texture
-    int width, height, nrChannels;
-    unsigned char *data = stbi_load("../res/wall.jpg", &width, &height, &nrChannels, 0);
-    if (data)
-    {
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
-        glGenerateMipmap(GL_TEXTURE_2D);
-    }
-    else
-    {
-        std::cout << "Failed to load texture" << std::endl;
-    }
-    stbi_image_free(data);
-
-    //Handle Textures 2
-    glGenTextures(1, &texture2);
-    glBindTexture(GL_TEXTURE_2D, texture2);  
-
-    // set the texture wrapping/filtering options (on the currently bound texture object)
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);	
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-    // load and generate the texture
-    unsigned char *data2 = stbi_load("../res/awesomeface.png", &width, &height, &nrChannels, 0);
-    if (data2)
-    {
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data2);
-        glGenerateMipmap(GL_TEXTURE_2D);
-    }
-    else
-    {
-        std::cout << "Failed to load texture 2" << std::endl;
-    }
-    stbi_image_free(data2);
-
-    //set uniforms
-    myShader.use();
-    myShader.setInt("ourTexture", 0);
-    myShader.setInt("newTexture", 1);
 }
 
 void Rendering() {
-
     //Change Background Color
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-    /*float timeValue = glfwGetTime();
-    float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
-    int vertexColorLocation = glGetUniformLocation(shaderProgram, "ourColor");*/
-
-    //Set program
-    //glUseProgram(shaderProgram);
-    
-    //myShader.setFloat("offsetX", 0.5f);
-
-    //Set Uniforms
-    //glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 
     glm::mat4 model = glm::mat4(1.0f);
     model = glm::rotate(model, glm::radians(-50.0f), glm::vec3(1.0f, 0.0f, 0.0f)); 
@@ -238,15 +173,9 @@ void Rendering() {
     unsigned int projectionLoc = glGetUniformLocation(myShader.ID, "projection");
     glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 
-    //bind texture
-    glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, texture);
-
-    glActiveTexture(GL_TEXTURE1);
-    glBindTexture(GL_TEXTURE_2D, texture2);
-
     myShader.use();
-    //Bind to VAO
+    brickTexture.Use(GL_TEXTURE0, &myShader, "ourTexture", 0);
+    smileTexture.Use(GL_TEXTURE1, &myShader, "newTexture", 1);
     glBindVertexArray(VAO);
 
     //Draw Object
@@ -262,11 +191,22 @@ void Rendering() {
         glDrawArrays(GL_TRIANGLES, 0, 36);
     }
 
+    modelLoc = glGetUniformLocation(rectShader.ID, "model");
+    glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+
+    viewLoc = glGetUniformLocation(rectShader.ID, "view");
+    glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+
+    projectionLoc = glGetUniformLocation(rectShader.ID, "projection");
+    glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+
+    brickTexture.Use(GL_TEXTURE0, &rectShader, "ourTexture", 0);
+    smileTexture.Use(GL_TEXTURE1, &rectShader, "newTexture", 1);
+    rectShader.use();
     rect.Use(glm::mat4(1.0f), &rectShader, "transform");
 }
 
 int InitializeOpenGL() {
-    SetUpShaders();
     PrepareForRendering();
 
     while(!glfwWindowShouldClose(mainManager.window))

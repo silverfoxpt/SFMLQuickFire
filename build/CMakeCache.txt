@@ -489,6 +489,9 @@ ShaderTemplate_LIB_DEPENDS:STATIC=general;glad;general;glfw;
 //Dependencies for the target
 ShapeTemplate_LIB_DEPENDS:STATIC=general;ShaderTemplate;general;glad;general;glfw;
 
+//Dependencies for the target
+TextureTemplate_LIB_DEPENDS:STATIC=general;ShaderTemplate;general;glad;general;glfw;
+
 //Path to a library.
 VorbisEnc_LIB:FILEPATH=D:/C++ Libs/SFML-2.6.1/lib/libvorbisenc.a
 
@@ -661,7 +664,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

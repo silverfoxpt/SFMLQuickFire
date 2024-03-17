@@ -96,6 +96,7 @@ QuickFire.exe: deps/glad/libglad.a
 QuickFire.exe: deps/glfw-3.4/src/libglfw3.a
 QuickFire.exe: Shader_Template/libShaderTemplate.a
 QuickFire.exe: Shape_Template/libShapeTemplate.a
+QuickFire.exe: Texture_Template/libTextureTemplate.a
 QuickFire.exe: Shader_Template/libShaderTemplate.a
 QuickFire.exe: deps/glad/libglad.a
 QuickFire.exe: deps/glfw-3.4/src/libglfw3.a

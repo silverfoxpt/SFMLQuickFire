@@ -101,6 +101,15 @@ D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shape_Template/CMakeFiles/lis
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shape_Template/CMakeFiles/install.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shape_Template/CMakeFiles/install/local.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Shape_Template/CMakeFiles/install/strip.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/TextureTemplate.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/package.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/package_source.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/edit_cache.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/rebuild_cache.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/list_install_components.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/install.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/install/local.dir
+D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template/CMakeFiles/install/strip.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/CMakeFiles/glad.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/CMakeFiles/package.dir
 D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad/CMakeFiles/package_source.dir

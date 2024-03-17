@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "13"
+			"value" : "14"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2455,6 +2455,18 @@
 		},
 		{
 			"name" : "ShapeTemplate_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;ShaderTemplate;general;glad;general;glfw;"
+		},
+		{
+			"name" : "TextureTemplate_LIB_DEPENDS",
 			"properties" : 
 			[
 				{

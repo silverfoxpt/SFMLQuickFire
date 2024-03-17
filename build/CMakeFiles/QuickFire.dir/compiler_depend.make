@@ -337,11 +337,6 @@ CMakeFiles/QuickFire.dir/main.cpp.obj: D:/SFML\ Projects/SFMLQuickFire/SFMLQuick
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/include/KHR/khrplatform.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include/GLFW/glfw3.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/shader.h \
-  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Image_Load/stb_image.h \
-  D:/mingw64/include/c++/13.1.0/math.h \
-  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
-  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
-  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/glm.hpp \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/detail/_fixes.hpp \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/fwd.hpp \
@@ -390,6 +385,9 @@ CMakeFiles/QuickFire.dir/main.cpp.obj: D:/SFML\ Projects/SFMLQuickFire/SFMLQuick
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xtestintrin.h \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/hresetintrin.h \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/immintrin.h \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+  D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tmmintrin.h \
   D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/smmintrin.h \
@@ -541,8 +539,12 @@ CMakeFiles/QuickFire.dir/main.cpp.obj: D:/SFML\ Projects/SFMLQuickFire/SFMLQuick
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/gtc/quaternion_simd.inl \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/gtc/type_ptr.inl \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/setupManager.h \
-  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shape_Template/rectangle.h
+  D:/mingw64/include/c++/13.1.0/math.h \
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shape_Template/rectangle.h \
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Texture_Template/texture.h
 
+
+D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Texture_Template/texture.h:
 
 D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/setupManager.h:
 
@@ -654,6 +656,8 @@ D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16vlintrin.h:
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h:
 
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectvlintrin.h:
+
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h:
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h:
@@ -697,6 +701,8 @@ D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/smmintrin.h:
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tmmintrin.h:
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h:
+
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h:
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavesintrin.h:
 
@@ -765,12 +771,6 @@ D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/fwd.hpp:
 D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/detail/type_mat2x3.hpp:
 
 D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/glm.hpp:
-
-D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h:
-
-D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectvlintrin.h:
-
-D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Image_Load/stb_image.h:
 
 D:/mingw64/include/c++/13.1.0/bits/fs_dir.h:
 
@@ -842,9 +842,9 @@ D:/mingw64/include/c++/13.1.0/bits/slice_array.h:
 
 D:/mingw64/include/c++/13.1.0/valarray:
 
-D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/detail/func_common.inl:
-
 D:/mingw64/include/c++/13.1.0/math.h:
+
+D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/detail/func_common.inl:
 
 D:/mingw64/include/c++/13.1.0/bits/stl_set.h:
 
@@ -930,9 +930,9 @@ D:/mingw64/include/c++/13.1.0/complex:
 
 D:/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
-D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h:
-
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h:
+
+D:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h:
 
 D:/mingw64/include/c++/13.1.0/clocale:
 

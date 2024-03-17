@@ -11,10 +11,10 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/deps/glfw-3.4")
 add_subdirectory("${PROJECT_SOURCE_DIR}/deps/glm")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Shader_Template")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Shape_Template")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Texture_Template")
 
 # For OpenGL 4.6
 add_subdirectory("${PROJECT_SOURCE_DIR}/deps/glad")
-
 include_directories("${PROJECT_SOURCE_DIR}/Image_Load")
 include_directories("${PROJECT_SOURCE_DIR}/Setup")
 
@@ -24,6 +24,7 @@ glfw
 glm
 ShaderTemplate
 ShapeTemplate
+TextureTemplate
 )
 
 

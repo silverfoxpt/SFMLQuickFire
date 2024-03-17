@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc libTextureTemplate.a CMakeFiles/TextureTemplate.dir/texture.cpp.obj
+D:\mingw64\bin\ranlib.exe libTextureTemplate.a

@@ -156,6 +156,12 @@
   "output": "Shape_Template/CMakeFiles/ShapeTemplate.dir/rectangle.cpp.obj"
 },
 {
+  "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/Texture_Template",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/TextureTemplate.dir/includes_CXX.rsp -g -o CMakeFiles\\TextureTemplate.dir\\texture.cpp.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\Texture_Template\\texture.cpp\"",
+  "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/Texture_Template/texture.cpp",
+  "output": "Texture_Template/CMakeFiles/TextureTemplate.dir/texture.cpp.obj"
+},
+{
   "directory": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/build/deps/glad",
   "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -g -o CMakeFiles\\glad.dir\\src\\glad.c.obj -c \"D:\\SFML Projects\\SFMLQuickFire\\SFMLQuickFire\\deps\\glad\\src\\glad.c\"",
   "file": "D:/SFML Projects/SFMLQuickFire/SFMLQuickFire/deps/glad/src/glad.c",
