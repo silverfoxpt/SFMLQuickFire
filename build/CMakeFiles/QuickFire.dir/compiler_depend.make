@@ -540,6 +540,7 @@ CMakeFiles/QuickFire.dir/main.cpp.obj: D:/SFML\ Projects/SFMLQuickFire/SFMLQuick
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/gtc/type_ptr.inl \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/setupManager.h \
   D:/mingw64/include/c++/13.1.0/math.h \
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/cameraSetup.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shape_Template/rectangle.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Texture_Template/texture.h
 
@@ -879,6 +880,8 @@ D:/mingw64/include/c++/13.1.0/bits/locale_facets_nonio.h:
 D:/mingw64/include/c++/13.1.0/locale:
 
 D:/mingw64/include/c++/13.1.0/iomanip:
+
+D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/cameraSetup.h:
 
 D:/mingw64/include/c++/13.1.0/functional:
 

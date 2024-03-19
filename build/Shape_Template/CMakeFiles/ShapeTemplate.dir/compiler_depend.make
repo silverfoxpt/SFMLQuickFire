@@ -420,6 +420,7 @@ Shape_Template/CMakeFiles/ShapeTemplate.dir/rectangle.cpp.obj: D:/SFML\ Projects
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glm/glm/gtc/type_ptr.inl \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/setupManager.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/deps/glfw-3.4/include/GLFW/glfw3.h \
+  D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/cameraSetup.h \
   D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/shader.h \
   D:/mingw64/include/c++/13.1.0/fstream \
   D:/mingw64/include/c++/13.1.0/bits/codecvt.h \
@@ -437,6 +438,8 @@ D:/mingw64/include/c++/13.1.0/bits/fstream.tcc:
 D:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h:
 
 D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Shader_Template/shader.h:
+
+D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/cameraSetup.h:
 
 D:/SFML\ Projects/SFMLQuickFire/SFMLQuickFire/Setup/setupManager.h:
 

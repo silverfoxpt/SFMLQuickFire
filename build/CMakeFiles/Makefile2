@@ -304,8 +304,8 @@ deps/glm/test/gtx/clean:
 
 # All Build rule for target.
 CMakeFiles/QuickFire.dir/all: deps/glfw-3.4/src/CMakeFiles/glfw.dir/all
-CMakeFiles/QuickFire.dir/all: Shader_Template/CMakeFiles/ShaderTemplate.dir/all
 CMakeFiles/QuickFire.dir/all: Shape_Template/CMakeFiles/ShapeTemplate.dir/all
+CMakeFiles/QuickFire.dir/all: Shader_Template/CMakeFiles/ShaderTemplate.dir/all
 CMakeFiles/QuickFire.dir/all: Texture_Template/CMakeFiles/TextureTemplate.dir/all
 CMakeFiles/QuickFire.dir/all: deps/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickFire.dir\build.make CMakeFiles/QuickFire.dir/depend
